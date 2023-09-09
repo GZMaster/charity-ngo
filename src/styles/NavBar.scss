@@ -1,0 +1,94 @@
+@import "./Colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  // overflow-x: hidden;
+}
+
+.nav__component {
+  position: fixed;
+  display: flex;
+  z-index: 5;
+  top: 0%;
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+  padding: 1.5% 5%;
+  align-items: center;
+  background-color: white;
+  line-height: 23px;
+  transition: all 0.3s ease-in-out;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.colorChange {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.nav__header {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.companyName {
+  color: $Black;
+}
+
+.links {
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.selected {
+  font-weight: bold;
+}
+.Contact-Link {
+  background-color: transparent;
+  padding: 7px 13px;
+  border: 2px solid #333333;
+  border-radius: 14px;
+  font-weight: 500;
+  color: #333333;
+}
+
+a:hover {
+  color: $Black;
+  font-weight: 700;
+}
+.Contact-Link:hover {
+  color: #fbcc32;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav__header {
+    width: auto;
+  }
+  .nav__component {
+    padding: 0 2%;
+  }
+  .links__content {
+    padding: 12px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav__component {
+    padding: 0 3%;
+  }
+  .nav__header {
+    display: flex;
+    align-items: center;
+  }
+}

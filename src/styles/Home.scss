@@ -1,0 +1,200 @@
+@import "./Colors.scss";
+
+.H_Container {
+  height: auto;
+  background-color: white;
+  background-image: url("../assets/Home/Herobg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-clip: content-box;
+}
+
+.H_Wrapper {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: space-evenly;
+  margin: 0px 5%;
+}
+
+.H_Text_Wrap {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 304px;
+  margin-right: 304px;
+  padding-bottom: 25.97px;
+}
+.H_Image_Wrap {
+  // padding: 4.627rem 4.563rem 2.48rem 4.563rem;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+
+  .H_Image1 {
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: -20%;
+    left: -7%;
+  }
+  .H_Image2 {
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: 2%;
+    left: 10%;
+  }
+  .H_Image3 {
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: -20%;
+    left: 27%;
+  }
+  .H_Image4 {
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: 2%;
+    left: 44%;
+  }
+  .H_Image5 {
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: -20%;
+    left: 61%;
+  }
+  .H_Image6 {
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: 2%;
+    left: 78%;
+  }
+}
+
+.H_Text_Header {
+  font-family: "Sen";
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 116.8%;
+  color: #333333;
+  overflow: hidden;
+  padding-bottom: 18px;
+}
+.H_Btn {
+  background-color: #fbcc32;
+  padding: 0.875rem 1.875rem;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18.77px;
+  color: #000000;
+  width: fit-content;
+  text-decoration: none;
+  border-radius: 26px;
+  cursor: pointer;
+}
+// .H_Btn:hover {
+//   color: $White;
+//   transition: all 0.3s linear;
+// }
+.H_Text_Title {
+  color: $Black-light;
+  line-height: 23.48px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.H_Orange {
+  color: #a1a1a1;
+}
+.H_Blue {
+  color: #000098;
+}
+.H_Text_Wrap p {
+  text-align: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #7e7e7e;
+  width: 65%;
+  padding-bottom: 32px;
+}
+.H_Image {
+  position: relative;
+  width: 90%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .H_Wrapper {
+    flex-direction: column;
+    margin: 0 4%;
+    margin-right: 0;
+  }
+  .H_Text_Wrap {
+    margin: auto;
+    padding: 0 5%;
+    p {
+      line-height: 22px;
+      font-size: 1rem;
+      margin: auto;
+      padding: 0 5%;
+    }
+  }
+  .H_Image_Wrap {
+    justify-content: center;
+    margin: 0;
+    width: 164%;
+    margin-left: -62%;
+  }
+  .H_Text_Header {
+    line-height: 32px;
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .H_Wrapper {
+    flex-direction: column;
+    padding: 2rem 0;
+    margin: 0;
+    margin-top: 6rem;
+    padding-bottom: 0;
+  }
+  .H_Container {
+    height: auto;
+    overflow: hidden;
+  }
+  .H_Text_Wrap {
+    margin: auto;
+    padding: 0 5%;
+  }
+  .H_Image_Wrap {
+    justify-content: center;
+    margin: 0;
+    width: 1320px;
+    margin-left: -33%;
+  }
+  .H_Text_Title {
+    font-size: 14px;
+  }
+  .H_Text_Header {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 20px;
+  }
+  .H_Text_Wrap p {
+    line-height: 22px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
