@@ -1,7 +1,12 @@
 import React from "react";
+import HeroPage from "../pages/HeroPage";
 
 const MainPage = () => {
-  return <></>;
+  return (
+    <>
+      <HeroPage />
+    </>
+  );
 };
 
 export default MainPage;
