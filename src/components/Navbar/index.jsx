@@ -28,7 +28,7 @@ export default function Navbar() {
       className={colorChange ? "nav__component colorChange" : "nav__component"}
     >
       <div className="nav__header">
-        <img className="logo" src="" alt="" />
+        {/* <img className="logo" src={Logo} alt="" /> */}
       </div>
 
       {isPageWide ? (
