@@ -3,7 +3,7 @@ import BurgerMenu from "../Hamburger/BurgerMenu";
 import UseMediaQuery from "../Mediaquery/UseMediaQuery";
 import { Link } from "react-scroll";
 import { useNavigate } from "react-router-dom";
-import Logo from "../../assets/logo.svg";
+// import Logo from "../../assets/logo.svg";
 import "../../styles/NavBar.scss";
 
 export default function Navbar() {
@@ -28,7 +28,7 @@ export default function Navbar() {
       className={colorChange ? "nav__component colorChange" : "nav__component"}
     >
       <div className="nav__header">
-        <img className="logo" src={Logo} alt="" />
+        {/* <img className="logo" src={Logo} alt="" /> */}
       </div>
 
       {isPageWide ? (

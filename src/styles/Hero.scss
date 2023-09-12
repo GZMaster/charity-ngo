@@ -1,0 +1,17 @@
+@import "./_colors.scss";
+@import "./_breakpoints.scss";
+@import "./_fonts.scss";
+
+.heropage_container {
+  height: auto;
+  background-color: white;
+}
+
+.heropage_wrapper {
+  display: flex;
+  margin: 0 auto;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
