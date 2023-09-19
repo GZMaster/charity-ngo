@@ -11,7 +11,9 @@ const AboutPage = () => {
         </div>
 
         <div className="aboutpage_right">
-          <h1>Who We Are</h1>
+          <h1>
+            Who <span>We Are</span>
+          </h1>
           <p>
             A non-profit and non-Governmental Organization founded in 2022 to
             promote sustainable agriculture, improve nutrition, end world hunger
