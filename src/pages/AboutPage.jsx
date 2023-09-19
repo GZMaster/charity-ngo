@@ -1,25 +1,30 @@
 import React from "react";
 import "../styles/About.scss";
+import image from "../assets/aboutpageleft.png";
 
 const AboutPage = () => {
   return (
     <div className="aboutpage_container">
       <div className="aboutpage_wrapper">
         <div className="aboutpage_left">
-          <img src="" alt="" />
+          <img src={image} alt="poor child" />
         </div>
 
         <div className="aboutpage_right">
-          <h1>Who We Are</h1>
+          <h1>
+            Who <span>We Are</span>
+          </h1>
           <p>
-            A non-profit and non-Governmental Organization founded in 2022 to
-            promote sustainable agriculture, improve nutrition, end world hunger
-            and achieve food security.
+            Apeh-Be Charity Foundation is a non-profit organization dedicated to
+            uplifting the less privileged in society. They believe in the
+            untapped potential within every individual and aim to provide
+            educational opportunities, restore hope, and empower disadvantaged
+            community members.
           </p>
           <p>
-            We commit ourself to helping families in the poor communities, the
-            marginalized and underprivileged to improve their lives and achieve
-            lasting victory against poverty.
+            Through scholarships and social development programs, they promote
+            youth education while also assisting those with disabilities,
+            empowering company owners, and boosting business empowerment.
           </p>
         </div>
       </div>

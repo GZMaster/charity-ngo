@@ -1,13 +1,16 @@
 import React from "react";
-import "../styles/About.scss";
+import "../styles/IntroPage.scss";
 
 const IntroPage = () => {
   return (
-    <div className="aboutpage_container">
-      <div className="aboutpage_wrapper">
-        <div className="aboutpage_title">
+    <div className="intropage_container">
+      <div className="intropage_wrapper">
+        <div className="intropage_title">
           <h3>WELCOME TO Zero Hunger</h3>
-          <h1>We Believe that we can Eradicate Poverty with you</h1>
+          <h1>
+            We Believe that we can Eradicate <br /> <span>Poverty</span> with
+            you
+          </h1>
         </div>
 
         <div className="aboutPage_body">{/* Component Card */}</div>

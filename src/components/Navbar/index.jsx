@@ -53,7 +53,7 @@ export default function Navbar() {
             offset={-80}
             onClick={() => handleClick("About")}
           >
-            About
+            Pages
           </Link>
           <Link
             className={selectPage === "Donations" ? "links selected" : "links"}
@@ -63,7 +63,7 @@ export default function Navbar() {
             offset={-80}
             onClick={() => handleClick("Events")}
           >
-            Services
+            Donations
           </Link>
           <Link
             className={selectPage === "Review" ? "links selected" : "links"}
@@ -73,7 +73,7 @@ export default function Navbar() {
             offset={-80}
             onClick={() => handleClick("Review")}
           >
-            Review
+            Events
           </Link>
 
           <Link
@@ -88,7 +88,7 @@ export default function Navbar() {
             offset={-80}
             onClick={() => handleClick("Contact Us")}
           >
-            Get in Touch
+            Contact
           </Link>
         </div>
       ) : (
