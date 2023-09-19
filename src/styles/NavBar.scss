@@ -1,5 +1,6 @@
 @import "./Colors.scss";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import "../styles/fonts";
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +38,13 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;
+
+  & h1 {
+    font-family: $Poppins;
+    font-weight: 800;
+    font-size: 0.884rem;
+    line-height: 1.326rem;
+  }
 }
 
 .companyName {
