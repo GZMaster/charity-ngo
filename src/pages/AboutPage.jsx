@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/About.scss";
+import image from "../assets/aboutpageleft.png";
 
 const AboutPage = () => {
   return (
     <div className="aboutpage_container">
       <div className="aboutpage_wrapper">
         <div className="aboutpage_left">
-          <img src="" alt="" />
+          <img src={image} alt="poor child" />
         </div>
 
         <div className="aboutpage_right">
