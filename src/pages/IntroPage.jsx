@@ -1,4 +1,6 @@
 import React from "react";
+import GoalCard from "../components/Card/GoalCard";
+import GoalData from "../assets/data/GoalData";
 import "../styles/IntroPage.scss";
 
 const IntroPage = () => {
@@ -13,7 +15,9 @@ const IntroPage = () => {
           </h1>
         </div>
 
-        <div className="aboutPage_body">{/* Component Card */}</div>
+        <div className="aboutPage_body">
+          <GoalCard items={GoalData} />
+        </div>
       </div>
     </div>
   );
