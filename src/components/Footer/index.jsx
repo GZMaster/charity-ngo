@@ -1,6 +1,8 @@
 import React from "react";
 import "../../styles/Footer.scss";
-
+import vectorImage from "../../assets/footerimage/vector.png";
+import mail from "../../assets/footerimage/mail.svg";
+import phone from "../../assets/footerimage/phone.svg";
 export default function Footer() {
   return (
     <footer className="footer_container">
@@ -9,8 +11,8 @@ export default function Footer() {
           <h3 className="footer_title">Get Connected</h3>
 
           <p>
-            Join the conversation on social, and stay connected with our latest
-            events and partners around the world.
+            Join the conversation on social, and stay connected with our <br />
+            latest events and partners around the world.
           </p>
 
           <div className="footer_social">
@@ -33,16 +35,22 @@ export default function Footer() {
           <h3 className="footer_title">Contact</h3>
 
           <div className="footer_contact">
-            <img src="" alt="" />
+            <div className="img">
+              <img src={vectorImage} alt="vector_image" />
+            </div>
             <p>Ojay Street, Kreg Ave, Lagos, Nigeria</p>
           </div>
           <div className="footer_contact">
-            <img src="" alt="" />
-            <p>Ojay Street, Kreg Ave, Lagos, Nigeria</p>
+            <div>
+              <img src={mail} alt="mail" />
+            </div>
+            <p>apehsmn77@gmail.com</p>
           </div>
           <div className="footer_contact">
-            <img src="" alt="" />
-            <p>Ojay Street, Kreg Ave, Lagos, Nigeria</p>
+            <div>
+              <img src={phone} alt="phone" />
+            </div>
+            <p>+234-8034956812</p>
           </div>
         </div>
 
