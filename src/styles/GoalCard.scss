@@ -3,15 +3,30 @@
 @import "./_fonts.scss";
 
 .GoalCard_Wrapper {
-  width: auto;
+  width: 100%;
   height: auto;
   overflow: hidden;
   background: #fff;
   flex-shrink: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.Card:nth-child(2) {
+  border-left: solid 1px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.Card:nth-child(3) {
+  border-left: solid 1px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.Card:nth-child(4) {
+  border-left: solid 1px;
+  border-color: rgba(0, 0, 0, 0.5);
 }
 
 .Card {
@@ -20,20 +35,24 @@
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
+  width: 100%;
+  text-align: center;
+  padding: 0 1.7rem;
+  // margin: 1.5rem;
 
   > .Card_Image {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4.83819rem;
-    height: 3.78256rem;
+    width: 8.83819rem;
+    height: 6.78256rem;
     flex-shrink: 0;
-    border-radius: 1.79269rem;
+    border-radius: 4.79269rem;
     background: rgba(20, 92, 8, 0.15);
 
     > img {
-      width: 1.82531rem;
-      height: 1.45144rem;
+      width: 3.82531rem;
+      height: 3.45144rem;
       flex-shrink: 0;
     }
   }
@@ -43,6 +62,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.2rem;
+    width: 100%;
+  }
+
+  > .Card_Details p {
+    font-size: 0.9rem;
+    color: #575454;
+  }
+
+  > .Card_Details h6 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
   }
 }

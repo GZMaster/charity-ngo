@@ -4,7 +4,7 @@ import "../styles/Hero.scss";
 
 const Hero = () => {
   return (
-    <section id="home" className="heropage_container">
+    <div className="heropage_container">
       <div className="heropage_wrapper">
         <div className="heropage_title">
           <h1>
@@ -20,7 +20,7 @@ const Hero = () => {
 
         {/* <img src={dotimage} alt="" /> */}
       </div>
-    </section>
+    </div>
   );
 };
 
