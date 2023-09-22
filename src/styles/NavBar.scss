@@ -3,14 +3,15 @@
 @import "./colors";
 
 .nav__component {
-  position: fixed;
+  font-family: $Poppins;
+  position: sticky;
   display: flex;
   z-index: 5;
   top: 0%;
   right: 0;
   left: 0;
   justify-content: space-between;
-  padding: 1.5% 5%;
+  padding: 1% 5%;
   align-items: center;
   background-color: white;
   line-height: 23px;
@@ -21,7 +22,6 @@
   font-size: 16px;
   line-height: 19px;
 }
-
 .colorChange {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   width: 40%;
-  font-family: $Poppins;
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -38,8 +38,9 @@
   & h1 {
     font-family: $Poppins;
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.326rem;
+    margin-left: 1rem;
   }
 }
 
@@ -48,57 +49,49 @@
 }
 
 .links {
+  font-family: $Poppins;
   text-decoration: none;
   padding: 10px;
   margin-right: 20px;
   color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
-  font-family: $Poppins;
 }
 
 .selected {
   font-weight: bold;
 }
-
 .Contact-Link {
   background-color: transparent;
   padding: 7px 13px;
   border: 2px solid #333333;
   border-radius: 14px;
-  border-style: none;
-  font-family: $Poppins;
   font-weight: 500;
   color: #333333;
 }
 
 a:hover {
-  color: $Black;
+  color: #1d890c;
   font-weight: 700;
 }
-
 .Contact-Link:hover {
-  color: #333333;
+  color: #fbcc32;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .nav__header {
     width: auto;
   }
-
   .nav__component {
     padding: 0 2%;
   }
-
   .links__content {
     padding: 12px 0;
   }
 }
-
 @media screen and (max-width: 768px) {
   .nav__component {
     padding: 0 3%;
   }
-
   .nav__header {
     display: flex;
     align-items: center;
