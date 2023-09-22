@@ -3,15 +3,62 @@
 @import "./_fonts.scss";
 
 .heropage_container {
-  height: auto;
+  background-image: url(../assets/hero/HeroPagebg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: white;
+  height: 100vh;
+  padding: 0 2.6rem;
 }
 
 .heropage_wrapper {
   display: flex;
   margin: 0 auto;
-  height: 100vh;
+  height: 70vh;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  margin-left: 2.463rem;
+}
+.heropage_title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.726rem;
+  width: 40%;
+
+  > h1 {
+    color: #fff;
+    font-family: $Poppins;
+    font-size: 2.55rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    > span {
+      color: #21b709;
+    }
+  }
+  > p {
+    color: white;
+    font-family: $Poppins;
+    font-size: 1.02781rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.heropage_btn {
+  color: #fff;
+  text-align: center;
+  font-family: $Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0.7rem 1rem;
+  border-radius: 1.5rem;
+  border-style: none;
+  background-color: #ce7c02;
+  width: fit-content;
+  cursor: pointer;
 }

@@ -1,0 +1,91 @@
+@import "./_colors.scss";
+@import "./_breakpoints.scss";
+@import "./_fonts.scss";
+
+.footer_container {
+  height: 8.95063rem;
+  border-radius: 0.10994rem;
+  background: rgba(0, 0, 0, 0.87);
+  flex-shrink: 0;
+  padding: 2.46rem;
+}
+
+.footer_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  justify-content: space-evenly;
+  align-items: first baseline;
+
+  >.footer_section {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    >h3 {
+      flex-shrink: 0;
+      color: #fff;
+      font-family: $Poppins;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 0.96763rem;
+    }
+
+    >p {
+      color: #fff;
+      font-family: $Poppins;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 0.96763rem;
+      /* 183.333% */
+    }
+  }
+}
+
+.footer_contact {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 10px;
+
+  & p {
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-family: $Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.96763rem;
+    /* 220% */
+  }
+}
+
+.footer_form {
+  & input {
+    width: 15.73531rem;
+    height: 1.95063rem;
+    flex-shrink: 0;
+    border: 0.348px solid #ce7c02;
+    border-radius: 0.10994rem;
+    background: rgba(0, 0, 0, 0.87);
+    color: #fff;
+  }
+
+  & button {
+    all: unset;
+    color: #CE7C02;
+    font-family: $Poppins;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.86431rem;
+    /* 245.631% */
+    margin-left: 10px;
+  }
+}

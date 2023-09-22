@@ -1,5 +1,5 @@
 import React from "react";
-import dotimage from "../assets/hero/group-17.svg";
+// import dotimage from "../assets/hero/group-17.svg";
 import "../styles/Hero.scss";
 
 const Hero = () => {
@@ -7,16 +7,18 @@ const Hero = () => {
     <div className="heropage_container">
       <div className="heropage_wrapper">
         <div className="heropage_title">
-          <h1>Reducing Hunger In Nigeria to Zero</h1>
+          <h1>
+            Empowering <span>Futures</span>, <br /> Inspiring Today.
+          </h1>
           <p>
-            With your support, we can do more. Your donation, no matter how
-            much, will help us reach more poor communities to feed them and
-            empower them
+            Together, We Can Change the World. We at the Apeh-Be Charity
+            Foundation <br /> are committed to upholding the charitable
+            character and principles of our founder, Apeh Be.
           </p>
           <button className="heropage_btn">Discover More</button>
         </div>
 
-        <img src={dotimage} alt="" />
+        {/* <img src={dotimage} alt="" /> */}
       </div>
     </div>
   );

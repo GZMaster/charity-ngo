@@ -1,20 +1,17 @@
-@import "./Colors.scss";
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  // overflow-x: hidden;
-}
+@import "./breakpoints";
+@import "./fonts";
+@import "./colors";
 
 .nav__component {
-  position: fixed;
+  font-family: $Poppins;
+  position: sticky;
   display: flex;
   z-index: 5;
   top: 0%;
   right: 0;
   left: 0;
   justify-content: space-between;
-  padding: 1.5% 5%;
+  padding: 1% 5%;
   align-items: center;
   background-color: white;
   line-height: 23px;
@@ -37,7 +34,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;
+
+  & h1 {
+    font-family: $Poppins;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1.326rem;
+    margin-left: 1rem;
+  }
 }
 
 .companyName {
@@ -45,6 +49,7 @@
 }
 
 .links {
+  font-family: $Poppins;
   text-decoration: none;
   padding: 10px;
   margin-right: 20px;
@@ -65,7 +70,7 @@
 }
 
 a:hover {
-  color: $Black;
+  color: #1d890c;
   font-weight: 700;
 }
 .Contact-Link:hover {

@@ -3,7 +3,7 @@ import BurgerMenu from "../Hamburger/BurgerMenu";
 import UseMediaQuery from "../Mediaquery/UseMediaQuery";
 import { Link } from "react-scroll";
 import { useNavigate } from "react-router-dom";
-// import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo.svg";
 import "../../styles/NavBar.scss";
 
 export default function Navbar() {
@@ -28,7 +28,9 @@ export default function Navbar() {
       className={colorChange ? "nav__component colorChange" : "nav__component"}
     >
       <div className="nav__header">
-        {/* <img className="logo" src={Logo} alt="" /> */}
+        <h1>
+          Apeh-Be Charity <img src={Logo} alt="logo" />
+        </h1>
       </div>
 
       {isPageWide ? (
@@ -54,24 +56,16 @@ export default function Navbar() {
             About
           </Link>
           <Link
-            className={selectPage === "Services" ? "links selected" : "links"}
+            className={
+              selectPage === "Our Gallery" ? "links selected" : "links"
+            }
             smooth={true}
             spy={true}
-            to="services"
+            to="our gallery"
             offset={-80}
-            onClick={() => handleClick("Services")}
+            onClick={() => handleClick("Our Gallery")}
           >
-            Services
-          </Link>
-          <Link
-            className={selectPage === "Review" ? "links selected" : "links"}
-            smooth={true}
-            spy={true}
-            to="Review"
-            offset={-80}
-            onClick={() => handleClick("Review")}
-          >
-            Review
+            Our Gallery
           </Link>
 
           <Link
@@ -86,7 +80,7 @@ export default function Navbar() {
             offset={-80}
             onClick={() => handleClick("Contact Us")}
           >
-            Get in Touch
+            Contact
           </Link>
         </div>
       ) : (
