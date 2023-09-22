@@ -11,7 +11,7 @@ import disabled from "../assets/gallery/disabled.png";
 
 const GalleryPage = () => {
   return (
-    <div className="gallerypage_container">
+    <section id="our gallery" className="gallerypage_container">
       <div className="gallerypage_wrapper">
         <div className="gallerypage_title">
           <h3>Our Gallery</h3>
@@ -28,7 +28,7 @@ const GalleryPage = () => {
           <img src={disabled} alt="disabled" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
