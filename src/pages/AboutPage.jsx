@@ -4,7 +4,7 @@ import image from "../assets/aboutpageleft.png";
 
 const AboutPage = () => {
   return (
-    <div className="aboutpage_container">
+    <section id="about" className="aboutpage_container">
       <div className="aboutpage_wrapper">
         <div className="aboutpage_left">
           <img src={image} alt="poor child" />
@@ -31,7 +31,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
