@@ -46,34 +46,26 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            className={selectPage === "Pages" ? "links selected" : "links"}
+            className={selectPage === "About" ? "links selected" : "links"}
             smooth={true}
             spy={true}
             to="about"
             offset={-80}
             onClick={() => handleClick("About")}
           >
-            Pages
+            About
           </Link>
           <Link
-            className={selectPage === "Donations" ? "links selected" : "links"}
+            className={
+              selectPage === "Our Gallery" ? "links selected" : "links"
+            }
             smooth={true}
             spy={true}
-            to="services"
+            to="our gallery"
             offset={-80}
-            onClick={() => handleClick("Events")}
+            onClick={() => handleClick("Our Gallery")}
           >
-            Donations
-          </Link>
-          <Link
-            className={selectPage === "Review" ? "links selected" : "links"}
-            smooth={true}
-            spy={true}
-            to="Review"
-            offset={-80}
-            onClick={() => handleClick("Review")}
-          >
-            Events
+            Our Gallery
           </Link>
 
           <Link

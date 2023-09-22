@@ -1,0 +1,30 @@
+@import "./breakpoints";
+@import "./fonts";
+@import "./colors";
+
+.donatepage_container {
+  font-family: $Poppins;
+  color: white;
+}
+
+.donatepage_wrapper {
+  margin-bottom: 8rem;
+  margin-top: 4rem;
+  padding: 2rem 5rem;
+}
+
+.donatepage_body {
+  display: flex;
+  gap: 2rem;
+}
+
+.donatepage_card {
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+  border-radius: 0.5rem;
+  background: #6d6d6d;
+
+  & p {
+    margin-bottom: 3rem;
+  }
+}

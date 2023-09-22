@@ -6,7 +6,6 @@
   background-image: url(../assets/hero/HeroPagebg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
   background-color: white;
   height: 100vh;
   padding: 0 2.6rem;
@@ -15,28 +14,12 @@
 .heropage_wrapper {
   display: flex;
   margin: 0 auto;
-  height: 100vh;
+  height: 70vh;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin-left: 2.463rem;
-
-  @include mobile {
-    margin-left: 0;
-    align-items: center;
-  }
-
-  @include tablet {
-    margin-left: 0;
-    align-items: center;
-  }
-
-  @include landscape {
-    margin-left: 0;
-    align-items: center;
-  }
 }
-
 .heropage_title {
   display: flex;
   flex-direction: column;
@@ -55,7 +38,7 @@
     }
   }
   > p {
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     font-family: $Poppins;
     font-size: 1.02781rem;
     font-style: normal;
@@ -72,9 +55,10 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding: 0.5rem 0.8rem;
-  border-radius: 1.1rem;
+  padding: 0.7rem 1rem;
+  border-radius: 1.5rem;
   border-style: none;
   background-color: #ce7c02;
   width: fit-content;
+  cursor: pointer;
 }

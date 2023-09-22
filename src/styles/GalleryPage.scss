@@ -5,9 +5,22 @@
 .gallerypage_title {
   color: #000;
   text-align: center;
-  font-family: Poppins;
-  font-size: 0.87969rem;
+  font-family: $Poppins;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.gallerypage_body {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-bottom: 2rem;
+
+  & img {
+    width: 100%;
+  }
+
 }
