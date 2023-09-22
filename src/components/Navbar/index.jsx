@@ -76,7 +76,7 @@ export default function Navbar() {
             }
             smooth={true}
             spy={true}
-            to="contact"
+            to="our gallery"
             offset={-80}
             onClick={() => handleClick("Contact Us")}
           >
