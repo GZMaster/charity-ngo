@@ -16,6 +16,10 @@
 .donatepage_body {
   display: flex;
   gap: 2rem;
+
+  @include mobile {
+    flex-direction: column;
+  }
 }
 
 .donatepage_card {
