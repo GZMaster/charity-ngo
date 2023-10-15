@@ -18,7 +18,7 @@ const IntroPage = () => {
           </h1>
         </div>
 
-        <div className="aboutPage_body">
+        <div className="intropage_body">
           <GoalCard items={GoalData} />
         </div>
       </div>

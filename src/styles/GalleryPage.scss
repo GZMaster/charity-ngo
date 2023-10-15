@@ -2,6 +2,14 @@
 @import "./_breakpoints.scss";
 @import "./_fonts.scss";
 
+.gallerypage_container {
+  height: auto;
+}
+
+.gallerypage_wrapper {
+  gap: 2.7rem;
+}
+
 .gallerypage_title {
   color: #000;
   text-align: center;
@@ -18,9 +26,15 @@
   margin-left: 15rem;
   margin-right: 15rem;
   margin-bottom: 2rem;
+  padding: 1.5rem;
+
+  @include mobile {
+    grid-template-columns: auto auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 
   & img {
     width: 100%;
   }
-
 }

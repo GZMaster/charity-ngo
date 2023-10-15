@@ -4,6 +4,12 @@
 
 .servicespage_container {
   font-family: $Poppins;
+  height: auto;
+
+  @include mobile {
+    height: auto;
+    width: auto;
+  }
 }
 
 .servicespage_wrapper {
@@ -33,6 +39,11 @@
   grid-column-gap: 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 1px 1px 4px #aaaaaa;
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .servicepage_card {

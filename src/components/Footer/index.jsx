@@ -53,20 +53,6 @@ export default function Footer() {
             <p>+234-8034956812</p>
           </div>
         </div>
-
-        <div className="footer_section">
-          <h3 className="footer_title">Stay Informed</h3>
-
-          <p>
-            Subscribe to our newsletter to receive updates of latest news and
-            events.
-          </p>
-
-          <form className="footer_form">
-            <input type="text" placeholder="Enter your email" />
-            <button type="submit">Subscribe</button>
-          </form>
-        </div>
       </div>
     </footer>
   );

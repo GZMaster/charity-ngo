@@ -4,18 +4,32 @@
 
 .donatepage_container {
   font-family: $Poppins;
-  color: white;
+  height: auto;
+
+  @include mobile {
+    height: auto;
+    width: auto;
+  }
 }
 
 .donatepage_wrapper {
   margin-bottom: 8rem;
   margin-top: 4rem;
   padding: 2rem 5rem;
+
+  @include mobile {
+    padding: 2rem 1rem;
+    margin: auto;
+  }
 }
 
 .donatepage_body {
   display: flex;
   gap: 2rem;
+
+  @include mobile {
+    flex-direction: column;
+  }
 }
 
 .donatepage_card {

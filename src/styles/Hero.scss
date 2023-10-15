@@ -7,8 +7,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
-  height: 100vh;
+  height: auto;
   padding: 0 2.6rem;
+
+  @include mobile {
+    height: auto;
+    width: auto;
+  }
 }
 
 .heropage_wrapper {
@@ -20,11 +25,16 @@
   align-items: flex-start;
   margin-left: 2.463rem;
 }
+
 .heropage_title {
   display: flex;
   flex-direction: column;
   gap: 0.726rem;
   width: 40%;
+
+  @include mobile {
+    width: 100%;
+  }
 
   > h1 {
     color: #fff;
@@ -33,17 +43,19 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
     > span {
       color: #21b709;
     }
   }
+
   > p {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     font-family: $Poppins;
     font-size: 1.02781rem;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 2rem;
   }
 }
 

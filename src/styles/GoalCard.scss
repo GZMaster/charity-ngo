@@ -14,6 +14,10 @@
   align-items: center;
   margin: 40px auto;
   font-family: "Poppins", sans-serif;
+
+  @include mobile {
+    flex-direction: column;
+  }
 }
 
 .Card:nth-child(2) {
