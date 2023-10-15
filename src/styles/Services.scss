@@ -4,6 +4,12 @@
 
 .servicespage_container {
   font-family: $Poppins;
+  height: auto;
+
+  @include mobile {
+    height: auto;
+    width: auto;
+  }
 }
 
 .servicespage_wrapper {
@@ -13,10 +19,6 @@
   margin-bottom: 8rem;
   margin-top: 4rem;
   padding: 2rem 5rem;
-
-  @include mobile {
-    margin: 0;
-  }
 
   & h1 {
     text-align: center;
@@ -41,7 +43,6 @@
   @include mobile {
     display: flex;
     flex-direction: column;
-    width: auto;
   }
 }
 
