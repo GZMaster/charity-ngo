@@ -15,7 +15,7 @@ const Hero = () => {
             Foundation <br /> are committed to upholding the charitable
             character and principles of our founder, Apeh Be.
           </p>
-          <button className="heropage_btn">Discover More</button>
+          <button className="heropage_btn">Donate</button>
         </div>
 
         {/* <img src={dotimage} alt="" /> */}

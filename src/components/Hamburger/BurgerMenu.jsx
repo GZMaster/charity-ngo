@@ -66,7 +66,7 @@ const BurgerMenu = () => {
               smooth={true}
               spy={true}
               offset={-60}
-              to="contact"
+              to="our gallery"
               onClick={handleClick}
             >
               Contact Us

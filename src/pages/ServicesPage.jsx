@@ -3,7 +3,7 @@ import "../styles/Services.scss";
 
 const ServicesPage = () => {
   return (
-    <div className="servicespage_container">
+    <setion id="services" className="servicespage_container">
       <div className="servicespage_wrapper">
         <div className="servicepage_title">
           <h1>What We Do?</h1>
@@ -75,7 +75,7 @@ const ServicesPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </setion>
   );
 };
 

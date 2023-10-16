@@ -26,8 +26,8 @@ const AboutPage = () => {
             youth education while also assisting those with disabilities,
             empowering company owners, and boosting business empowerment.
           </p>
-          <div className="about-btn">
-            <button className="heropage_btn">Discover More</button>
+          <div className="about-btn"></div>
+            <button className="heropage_btn">Donate</button>
           </div>
         </div>
       </div>

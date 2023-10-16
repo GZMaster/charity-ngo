@@ -41,6 +41,10 @@
   & p {
     margin-bottom: 3rem;
   }
+
+  & button {
+    cursor: pointer;
+  }
 }
 
 .donate_bg {
@@ -53,7 +57,6 @@
   background-image: url("../assets/donate/partners.jpg");
   background-size: cover;
   background-position: center;
-  cursor: pointer;
 }
 
 .bepart_bg {
