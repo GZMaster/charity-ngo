@@ -53,7 +53,7 @@ const BurgerMenu = () => {
               activeclass="active"
               smooth={true}
               spy={true}
-              to="services"
+              to="donate"
               offset={-60}
               onClick={handleClick}
             >

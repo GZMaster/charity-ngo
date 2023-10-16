@@ -3,7 +3,7 @@ import "../styles/DonatePage.scss";
 
 const DonatePage = () => {
   return (
-    <div className="donatepage_container">
+    <setion id="donate" className="donatepage_container">
       <div className="donatepage_wrapper">
         <div className="donatepage_body">
           <div className="donatepage_card bepart_bg">
@@ -41,7 +41,7 @@ const DonatePage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </setion>
   );
 };
 
