@@ -23,7 +23,13 @@ const DonatePage = () => {
             </p>
             {/* <button className="heropage_btn">Donate</button> */}
           </div>
-          <div className="donatepage_card partner_bg">
+          <div
+            className="donatepage_card partner_bg"
+            onClick={() => {
+              window.location.href =
+                "https://docs.google.com/forms/d/e/1FAIpQLSdExZPPgnuicdnZ_CxVwIs8XEjm4eo0EJcZze4MNcG2tGsj3Q/viewform?usp=sf_link";
+            }}
+          >
             <h3>We Are Open</h3>
             <p>
               We are accepting partnerships. What better way to grow our
