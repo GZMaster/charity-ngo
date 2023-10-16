@@ -6,7 +6,7 @@ const DonatePage = () => {
     <div className="donatepage_container">
       <div className="donatepage_wrapper">
         <div className="donatepage_body">
-          <div className="donatepage_card">
+          <div className="donatepage_card bepart_bg">
             <h3>Be Part of Something Big</h3>
             <p>
               Join us in making the world a better place by carrying out our
@@ -14,7 +14,7 @@ const DonatePage = () => {
             </p>
             {/* <button className="heropage_btn">Volunteer</button> */}
           </div>
-          <div className="donatepage_card">
+          <div className="donatepage_card donate_bg">
             <h3>Support A Great Course</h3>
             <p>
               Do not forget, you donating has made a big impact on the
@@ -23,7 +23,7 @@ const DonatePage = () => {
             </p>
             {/* <button className="heropage_btn">Donate</button> */}
           </div>
-          <div className="donatepage_card">
+          <div className="donatepage_card partner_bg">
             <h3>We Are Open</h3>
             <p>
               We are accepting partnerships. What better way to grow our
