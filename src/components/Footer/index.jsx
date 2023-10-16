@@ -38,7 +38,7 @@ export default function Footer() {
             <div className="img">
               <img src={vectorImage} alt="vector_image" />
             </div>
-            <p>Ojay Street, Kreg Ave, Lagos, Nigeria</p>
+            <p>Benin city, Edo State, Nigeria</p>
           </div>
           <div className="footer_contact">
             <div>
