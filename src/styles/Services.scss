@@ -19,6 +19,7 @@
   margin-bottom: 8rem;
   margin-top: 4rem;
   padding: 2rem 5rem;
+  gap: 2rem;
 
   & h1 {
     text-align: center;
@@ -32,7 +33,7 @@
 }
 
 .servicespage_body {
-  padding: 1.5rem;
+  padding: 2.5rem;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-row-gap: 1.5rem;

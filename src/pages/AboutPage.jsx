@@ -15,16 +15,19 @@ const AboutPage = () => {
             Who <span>We Are</span>
           </h1>
           <p>
-            Apeh-Be Charity Foundation is a non-profit organization dedicated to
-            uplifting the less privileged in society. They believe in the
-            untapped potential within every individual and aim to provide
-            educational opportunities, restore hope, and empower disadvantaged
-            community members.
+            Apeh-Be Charitable Foundation is a non-governmental organization
+            established in memory of Apeh Be(Late) in order to uphold his
+            virtues of concern and care for the wellbeing of the underprivileged
+            and the upliftment of those non-inclusive members of society.
           </p>
           <p>
-            Through scholarships and social development programs, they promote
-            youth education while also assisting those with disabilities,
-            empowering company owners, and boosting business empowerment.
+            The degenerating state of the quality of life in Nigeria, a country
+            officially declared to be the poverty capital of the world in 2017,
+            speaks volumes about the chronic and abysmal level of poverty in the
+            country.
+          </p>
+          <p>
+            The Foundation was legally registered in the First Quarter of 2022.
           </p>
           <div className="about-btn">
             <button className="heropage_btn">Donate</button>

@@ -42,13 +42,16 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 0.2);
     opacity: 1;
   }
 
   & p {
     margin-bottom: 3rem;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    color: white;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 0.2);
     opacity: 1;
   }
 
@@ -59,7 +62,7 @@
 
 .donate_bg {
   position: relative;
-  background-image: url("../assets/donate/Support\ A\ Great\ Course.jpg");
+  background-image: url("../assets/donate/Support\ A\ Great\ Course.svg");
   background-size: cover;
   background-position: center;
 
@@ -79,7 +82,7 @@
 }
 
 .partner_bg {
-  background-image: url("../assets/donate/partners.jpg");
+  background-image: url("../assets/donate/partners.svg");
   background-size: cover;
   background-position: center;
 
@@ -99,7 +102,7 @@
 }
 
 .bepart_bg {
-  background-image: url("../assets/donate/Be\ Part\ of\ something\ big.jpg");
+  background-image: url("../assets/donate/Be\ Part\ of\ something\ big.svg");
   background-size: cover;
   background-position: center;
 
@@ -112,7 +115,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    // background-color: rgb(255, 255, 255, 0.8);
     opacity: 0.8;
     z-index: -1;
   }
