@@ -38,19 +38,20 @@ export default function Footer() {
             <div className="img">
               <img src={vectorImage} alt="vector_image" />
             </div>
-            <p>Benin city, Edo State, Nigeria</p>
+            <p>Kaduna State, Nigeria</p>
           </div>
           <div className="footer_contact">
             <div>
               <img src={mail} alt="mail" />
             </div>
-            <p>apehsmn77@gmail.com</p>
+            <p>apehbechaf@gmail.com</p>
           </div>
           <div className="footer_contact">
             <div>
               <img src={phone} alt="phone" />
             </div>
-            <p>+234-8034956812</p>
+            <p>08091107380</p>
+            <p>08065510723</p>
           </div>
         </div>
       </div>
