@@ -7,7 +7,9 @@ const GalleryPage = () => {
     <section id="our gallery" className="gallerypage_container">
       <div className="gallerypage_wrapper">
         <div className="gallerypage_title">
-          <h3>Our Gallery</h3>
+          <h1>
+            Our <span>Gallery</span>
+          </h1>
         </div>
 
         <div className="gallerypage_body">

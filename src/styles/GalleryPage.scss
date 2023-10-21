@@ -18,6 +18,26 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+
+  & h1 {
+    color: #ce7c02;
+    text-align: center;
+    font-family: $Poppins;
+    font-size: 1.87969rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-shrink: 0;
+
+    > span {
+      color: #145c08;
+      font-family: $Poppins;
+      font-size: 1.87969rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
 }
 
 .gallerypage_body {

@@ -6,7 +6,9 @@ const ServicesPage = () => {
     <setion id="services" className="servicespage_container">
       <div className="servicespage_wrapper">
         <div className="servicepage_title">
-          <h1>Work Pillars</h1>
+          <h1>
+            Work <span>Pillars</span>
+          </h1>
         </div>
 
         <div className="servicespage_body">
