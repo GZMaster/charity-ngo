@@ -1,24 +1,24 @@
 import React from "react";
 import HeroPage from "../pages/HeroPage";
 import IntroPage from "../pages/IntroPage";
-import AboutPage from "./AboutPage";
-import PartnershipPage from "./PartnershipPage";
-import HistoryPage from "./HistoryPage";
+// import { About } from "./AboutPage";
+// import { Partnership } from "./PartnershipPage";
+// import { History } from "./HistoryPage";
 import ServicesPage from "./ServicesPage";
-import DonatePage from "./DonatePage";
-import GalleryPage from "./GalleryPage";
+import { Donate } from "./DonatePage";
+// import { Gallery } from "./GalleryPage";
 
 const MainPage = () => {
   return (
     <>
       <HeroPage />
       <IntroPage />
-      <AboutPage />
-      <PartnershipPage />
-      <HistoryPage />
+      {/* <About /> */}
+      {/* <Partnership /> */}
+      {/* <History /> */}
       <ServicesPage />
-      <DonatePage />
-      <GalleryPage />
+      <Donate />
+      {/* <Gallery /> */}
     </>
   );
 };

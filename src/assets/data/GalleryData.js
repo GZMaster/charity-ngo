@@ -4,7 +4,7 @@ import image3 from "../gallery/Gift Catalog.jpeg.jpg";
 import image4 from "../gallery/image.jpg";
 import image5 from "../gallery/Poverty in Africa.jpeg.jpg";
 import image6 from "../gallery/senegal.jpeg.jpg";
-import image7 from "../gallery/South Sudan 🇸🇸.jpeg.jpg";
+import image7 from "../gallery/South Sudan.jpg";
 import image8 from "../gallery/Turn shoes and clothing into opportunity_.jpeg.jpg";
 import image9 from "../gallery/Unknown 2.jpeg.jpg";
 import image10 from "../gallery/Unknown.jpeg.jpg";

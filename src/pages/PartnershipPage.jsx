@@ -1,8 +1,9 @@
 import React from "react";
+import HeroPage from "./HeroPage";
 import "../styles/PartnershipPage.scss";
 import image from "../assets/partnership/partnership.svg";
 
-const PartnershipPage = () => {
+export const Partnership = () => {
   return (
     <section id="Partnership" className="Partnershippage_container">
       <div className="Partnershippage_wrapper">
@@ -42,6 +43,15 @@ const PartnershipPage = () => {
         </div>
       </div>
     </section>
+  );
+};
+
+const PartnershipPage = () => {
+  return (
+    <>
+      <HeroPage />
+      <Partnership />
+    </>
   );
 };
 

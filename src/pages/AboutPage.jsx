@@ -1,8 +1,9 @@
 import React from "react";
+import HeroPage from "./HeroPage";
 import "../styles/AboutPage.scss";
 import image from "../assets/aboutpageleft.png";
 
-const AboutPage = () => {
+export const About = () => {
   return (
     <section id="about" className="aboutpage_container">
       <div className="aboutpage_wrapper">
@@ -35,6 +36,16 @@ const AboutPage = () => {
         </div>
       </div>
     </section>
+  );
+};
+
+const AboutPage = () => {
+  return (
+    <>
+      <HeroPage />
+
+      <About />
+    </>
   );
 };
 

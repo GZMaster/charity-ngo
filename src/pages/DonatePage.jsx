@@ -1,7 +1,8 @@
 import React from "react";
+import HeroPage from "./HeroPage";
 import "../styles/DonatePage.scss";
 
-const DonatePage = () => {
+export const Donate = () => {
   return (
     <setion id="donate" className="donatepage_container">
       <div className="donatepage_wrapper">
@@ -42,6 +43,15 @@ const DonatePage = () => {
         </div>
       </div>
     </setion>
+  );
+};
+
+const DonatePage = () => {
+  return (
+    <>
+      <HeroPage />
+      <Donate />
+    </>
   );
 };
 

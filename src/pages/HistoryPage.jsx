@@ -1,8 +1,9 @@
 import React from "react";
+import HeroPage from "./HeroPage";
 import "../styles/HistoryPage.scss";
 import image from "../assets/history/history.svg";
 
-const HistoryPage = () => {
+export const History = () => {
   return (
     <section id="History" className="Historypage_container">
       <div className="Historypage_wrapper">
@@ -34,6 +35,15 @@ const HistoryPage = () => {
         </div>
       </div>
     </section>
+  );
+};
+
+const HistoryPage = () => {
+  return (
+    <>
+      <HeroPage />
+      <History />
+    </>
   );
 };
 

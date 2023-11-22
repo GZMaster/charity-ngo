@@ -51,7 +51,10 @@ export default function Navbar() {
             spy={true}
             to="about"
             offset={-80}
-            onClick={() => handleClick("About")}
+            onClick={() => {
+              handleClick("About");
+              navigate("/about");
+            }}
           >
             About
           </Link>
@@ -63,7 +66,10 @@ export default function Navbar() {
             spy={true}
             to="Partnership"
             offset={-80}
-            onClick={() => handleClick("Partnership")}
+            onClick={() => {
+              handleClick("Partnership");
+              navigate("/partnership");
+            }}
           >
             Partnership
           </Link>
@@ -73,7 +79,10 @@ export default function Navbar() {
             spy={true}
             to="History"
             offset={-80}
-            onClick={() => handleClick("History")}
+            onClick={() => {
+              handleClick("History");
+              navigate("/history");
+            }}
           >
             History
           </Link>
@@ -83,13 +92,16 @@ export default function Navbar() {
             spy={true}
             to="donate"
             offset={-80}
-            onClick={() => handleClick("Donate")}
+            onClick={() => {
+              handleClick("Donate");
+              navigate("/donate");
+            }}
           >
             Donate
           </Link>
           <Link
             className={
-              selectPage === "Contact Us"
+              selectPage === "Our Gallery"
                 ? "links Contact-Link selected"
                 : "links Contact-Link"
             }
@@ -97,7 +109,10 @@ export default function Navbar() {
             spy={true}
             to="our gallery"
             offset={-80}
-            onClick={() => handleClick("Our Gallery")}
+            onClick={() => {
+              handleClick("Our Gallery");
+              navigate("/gallery");
+            }}
           >
             Our Gallery
           </Link>
