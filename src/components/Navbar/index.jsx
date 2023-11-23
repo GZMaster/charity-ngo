@@ -51,26 +51,57 @@ export default function Navbar() {
             spy={true}
             to="about"
             offset={-80}
-            onClick={() => handleClick("About")}
+            onClick={() => {
+              handleClick("About");
+              navigate("/about");
+            }}
           >
             About
           </Link>
           <Link
             className={
-              selectPage === "Our Gallery" ? "links selected" : "links"
+              selectPage === "Partnership" ? "links selected" : "links"
             }
             smooth={true}
             spy={true}
-            to="our gallery"
+            to="Partnership"
             offset={-80}
-            onClick={() => handleClick("Our Gallery")}
+            onClick={() => {
+              handleClick("Partnership");
+              navigate("/partnership");
+            }}
           >
-            Our Gallery
+            Partnership
           </Link>
-
+          <Link
+            className={selectPage === "History" ? "links selected" : "links"}
+            smooth={true}
+            spy={true}
+            to="History"
+            offset={-80}
+            onClick={() => {
+              handleClick("History");
+              navigate("/history");
+            }}
+          >
+            History
+          </Link>
+          <Link
+            className={selectPage === "Donate" ? "links selected" : "links"}
+            smooth={true}
+            spy={true}
+            to="donate"
+            offset={-80}
+            onClick={() => {
+              handleClick("Donate");
+              navigate("/donate");
+            }}
+          >
+            Donate
+          </Link>
           <Link
             className={
-              selectPage === "Contact Us"
+              selectPage === "Our Gallery"
                 ? "links Contact-Link selected"
                 : "links Contact-Link"
             }
@@ -78,9 +109,12 @@ export default function Navbar() {
             spy={true}
             to="our gallery"
             offset={-80}
-            onClick={() => handleClick("Contact Us")}
+            onClick={() => {
+              handleClick("Our Gallery");
+              navigate("/gallery");
+            }}
           >
-            Contact
+            Our Gallery
           </Link>
         </div>
       ) : (

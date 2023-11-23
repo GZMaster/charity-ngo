@@ -8,14 +8,16 @@ const Hero = () => {
       <div className="heropage_wrapper">
         <div className="heropage_title">
           <h1>
-            Empowering <span>Futures</span>, <br /> Inspiring Today.
+            Promoting <span>Societal Inclusiveness</span>, <br /> through help
+            and support.
           </h1>
           <p>
-            Together, We Can Change the World. We at the Apeh-Be Charity
-            Foundation <br /> are committed to upholding the charitable
-            character and principles of our founder, Apeh Be.
+            Apeh-Be Charitable Foundation is a non-profit organization that seek
+            to promote <br />
+            societal inclusiveness through care, welfare and opportunities that
+            lead to a better life.
           </p>
-          <button className="heropage_btn">Discover More</button>
+          <button className="heropage_btn">Donate</button>
         </div>
 
         {/* <img src={dotimage} alt="" /> */}

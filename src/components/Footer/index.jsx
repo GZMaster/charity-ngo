@@ -3,6 +3,9 @@ import "../../styles/Footer.scss";
 import vectorImage from "../../assets/footerimage/vector.png";
 import mail from "../../assets/footerimage/mail.svg";
 import phone from "../../assets/footerimage/phone.svg";
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
+
 export default function Footer() {
   return (
     <footer className="footer_container">
@@ -16,17 +19,14 @@ export default function Footer() {
           </p>
 
           <div className="footer_social">
-            <a href="https://www.facebook.com/">
-              <img src="" alt="" />
+            <a href="https://web.facebook.com/profile.php?id=100083798790506">
+              <AiFillFacebook />
             </a>
             <a href="https://www.instagram.com/">
-              <img src="" alt="" />
+              <AiFillInstagram />
             </a>
             <a href="https://www.twitter.com/">
-              <img src="" alt="" />
-            </a>
-            <a href="https://www.linkedin.com/">
-              <img src="" alt="" />
+              <FaXTwitter />
             </a>
           </div>
         </div>
@@ -38,19 +38,20 @@ export default function Footer() {
             <div className="img">
               <img src={vectorImage} alt="vector_image" />
             </div>
-            <p>Ojay Street, Kreg Ave, Lagos, Nigeria</p>
+            <p>KADUNA, MAKURDI, BENIN CITY</p>
           </div>
           <div className="footer_contact">
             <div>
               <img src={mail} alt="mail" />
             </div>
-            <p>apehsmn77@gmail.com</p>
+            <p>apehbechaf@gmail.com</p>
           </div>
           <div className="footer_contact">
             <div>
               <img src={phone} alt="phone" />
             </div>
-            <p>+234-8034956812</p>
+            <p>08091107380</p>
+            <p>08065510723</p>
           </div>
         </div>
       </div>

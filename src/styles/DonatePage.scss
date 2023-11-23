@@ -38,7 +38,84 @@
   border-radius: 0.5rem;
   background: #6d6d6d;
 
+  & h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 0.2);
+    opacity: 1;
+  }
+
   & p {
     margin-bottom: 3rem;
+    color: white;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 0.2);
+    opacity: 1;
+  }
+
+  & button {
+    cursor: pointer;
+  }
+}
+
+.donate_bg {
+  position: relative;
+  background-image: url("../assets/donate/Support\ A\ Great\ Course.svg");
+  background-size: cover;
+  background-position: center;
+
+  .donate_bg::before {
+    content: "";
+    background-image: inherit;
+    filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // background-color: rgb(255, 255, 255, 0.8);
+    opacity: 0.8;
+    z-index: 1;
+  }
+}
+
+.partner_bg {
+  background-image: url("../assets/donate/partners.svg");
+  background-size: cover;
+  background-position: center;
+
+  .partner_bg::before {
+    content: "";
+    background-image: inherit;
+    filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // background-color: rgb(255, 255, 255, 0.8);
+    opacity: 0.8;
+    z-index: -1;
+  }
+}
+
+.bepart_bg {
+  background-image: url("../assets/donate/Be\ Part\ of\ something\ big.svg");
+  background-size: cover;
+  background-position: center;
+
+  .bepart_bg::before {
+    content: "";
+    background-image: inherit;
+    filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
   }
 }

@@ -53,11 +53,35 @@ const BurgerMenu = () => {
               activeclass="active"
               smooth={true}
               spy={true}
-              to="services"
+              to="partnership"
               offset={-60}
               onClick={handleClick}
             >
-              Services
+              Partnership
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeclass="active"
+              smooth={true}
+              spy={true}
+              to="history"
+              offset={-60}
+              onClick={handleClick}
+            >
+              History
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeclass="active"
+              smooth={true}
+              spy={true}
+              to="donate"
+              offset={-60}
+              onClick={handleClick}
+            >
+              Donate
             </Link>
           </li>
           <li>
@@ -66,10 +90,10 @@ const BurgerMenu = () => {
               smooth={true}
               spy={true}
               offset={-60}
-              to="contact"
+              to="our gallery"
               onClick={handleClick}
             >
-              Contact Us
+              Our Gallery
             </Link>
           </li>
         </ul>

@@ -2,7 +2,7 @@
 @import "./_breakpoints.scss";
 @import "./_fonts.scss";
 
-.aboutpage_container {
+.Historypage_container {
   height: auto;
   padding: 0 2.6rem;
   margin: 4rem 0rem 8rem 0rem;
@@ -14,7 +14,7 @@
   }
 }
 
-.aboutpage_wrapper {
+.Historypage_wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -27,7 +27,7 @@
     align-items: center;
   }
 
-  > .aboutpage_left {
+  > .Historypage_left {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@
     }
   }
 
-  > .aboutpage_right {
+  > .Historypage_right {
     width: 50%;
     display: flex;
     flex-direction: column;
