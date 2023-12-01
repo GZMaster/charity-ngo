@@ -13,7 +13,7 @@ export const History = () => {
 
         <div className="Historypage_right">
           <h1>
-            In Honour of late <span>APEH BE</span>
+            History of <span>APEH BE</span> Charity
           </h1>
           <p>
             The Foundation applied for registration in the First quarter of 2021

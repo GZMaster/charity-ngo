@@ -9,7 +9,7 @@ const BurgerMenu = () => {
   const navigate = useNavigate();
   const handleClick = () => {
     setOpen(false);
-    navigate("/");
+    // navigate("/");
   };
   return (
     <div>
@@ -31,7 +31,10 @@ const BurgerMenu = () => {
               spy={true}
               to="home"
               offset={-60}
-              onClick={handleClick}
+              onClick={() => {
+                handleClick;
+                navigate("/");
+              }}
             >
               Home
             </Link>
@@ -43,7 +46,10 @@ const BurgerMenu = () => {
               spy={true}
               to="about"
               offset={-60}
-              onClick={handleClick}
+              onClick={() => {
+                handleClick;
+                navigate("/about");
+              }}
             >
               About
             </Link>
@@ -55,7 +61,10 @@ const BurgerMenu = () => {
               spy={true}
               to="partnership"
               offset={-60}
-              onClick={handleClick}
+              onClick={() => {
+                handleClick;
+                navigate("/partnership");
+              }}
             >
               Partnership
             </Link>
@@ -67,7 +76,10 @@ const BurgerMenu = () => {
               spy={true}
               to="history"
               offset={-60}
-              onClick={handleClick}
+              onClick={() => {
+                handleClick;
+                navigate("/history");
+              }}
             >
               History
             </Link>
@@ -77,21 +89,12 @@ const BurgerMenu = () => {
               activeclass="active"
               smooth={true}
               spy={true}
-              to="donate"
-              offset={-60}
-              onClick={handleClick}
-            >
-              Donate
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeclass="active"
-              smooth={true}
-              spy={true}
               offset={-60}
               to="our gallery"
-              onClick={handleClick}
+              onClick={() => {
+                handleClick;
+                navigate("/gallery");
+              }}
             >
               Our Gallery
             </Link>
